@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="57px" height="57px" viewBox="0 0 57 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>椭圆形</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="椭圆形">
+            <g>
+                <circle id="Oval" fill="#999999" cx="28.5" cy="28.5" r="28.5"></circle>
+                <g id="Oval-2" transform="translate(11.000000, 12.000000)" fill="#FFFFFF">
+                    <circle cx="6.5" cy="4.5" r="4.5"></circle>
+                    <circle id="Oval-2-Copy" cx="29.5" cy="4.5" r="4.5"></circle>
+                    <path d="M18,32.5093572 C27.9411255,32.5093572 34.0773055,22.6388209 34.0773055,22.6388209 C34.3846336,22.1905483 34.2463011,21.6213873 33.7411728,21.3730981 C33.7411728,21.3730981 27.9411255,18 18,18 C8.0588745,18 2.24119787,21.3730981 2.24119787,21.3730981 C1.7469182,21.6238649 1.59958348,22.207337 1.91058309,22.6476291 C1.91058309,22.6476291 8.0588745,32.5093572 18,32.5093572 Z" id="Oval-3"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
