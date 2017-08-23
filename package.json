@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
-    "start": "node build/dev-server.js",
+    "start": "node build/dev-server.js && node ./server/bin/www",
     "build": "node build/build.js",
     "server": "node ./server/bin/www"
   },
