@@ -1,0 +1,28 @@
+{
+    "apps":[
+        {
+            "name": "book",
+            "script": "app.js",
+            "env":{
+                "COMMON_VARIABLE": "true"
+            },
+            "env_production": {
+                "NODE_ENV": "production"
+            }
+        }
+    ],
+    "deploy":{
+        "production": {
+            "user": "root",
+            "host": ["123.57.140.93"],
+            "ref": "origin/master",
+            "repo": "git@git.oschina.net:iuunhao/demo.git",
+            "path": "/home/iuunhao/website/production",
+            "ssh_options": "StrictHostKeyChecking=no",
+            "post-deploy": "cnpmi install && npm build && npm run server && pm2 startOrRestart ecosytem.json --env production",
+            "env":{
+                "NODE_ENV": "production"
+            }
+        }
+    }
+}
